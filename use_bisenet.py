@@ -1,6 +1,6 @@
 
-from YelloHand.checkpoint import load_checkpoint
-from YelloHand.models.bisenet import BiSeNet
+from YellowHand.checkpoint import load_checkpoint
+from YellowHand.models.bisenet import BiSeNet
 import torch
 
 def load_bisenet(path: str, device=torch.device("cpu")):
