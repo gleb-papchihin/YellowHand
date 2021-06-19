@@ -3,4 +3,4 @@
 
 Two pretrained models for real time segmentation. Ready to use :)
 
-
+![DeeplabV3](https://github.com/gleb-papchihin/YellowHand/blob/main/DeepLabV3.gif)
