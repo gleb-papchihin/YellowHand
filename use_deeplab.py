@@ -1,6 +1,6 @@
 
-from YelloHand.checkpoint import load_checkpoint
-from YelloHand.models.deeplab import DeepLab
+from YellowHand.checkpoint import load_checkpoint
+from YellowHand.models.deeplab import DeepLab
 import torch
 
 def load_deeplab(path: str, device=torch.device("cpu")):
