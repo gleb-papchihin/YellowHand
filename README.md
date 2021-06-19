@@ -21,6 +21,6 @@ Two pretrained models for real time segmentation. Ready to use :)
 
 | DATASET | SIZE | LINK |
 |:---------------------:|:---------:|:------------:|
-| Extended GTEA Gaze+ | ~14K | link |
-| Ego2Hand | ~180K | link |
-| EgoHand | ~5K | link |
+| Extended GTEA Gaze+ | ~14K | click |
+| Ego2Hand | ~180K | click |
+| EgoHand | ~5K | click |
