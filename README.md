@@ -3,6 +3,13 @@
 
 Two pretrained models for real time segmentation. Ready to use :)
 
+| DATASET | SIZE | LINK |
+|:---------------------:|:---------:|:------------:|
+| Extended GTEA Gaze+ | ~14K | link |
+| Ego2Hand | ~180K | link |
+| EgoHand | ~5K | link |
+
+
 ![DeeplabV3](https://github.com/gleb-papchihin/YellowHand/blob/main/DeepLabV3.gif)
 
 # BiSeNetV2.
