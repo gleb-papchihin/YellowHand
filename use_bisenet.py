@@ -1,6 +1,6 @@
 
-from MagicHandSegmentation.checkpoint import load_checkpoint
-from MagicHandSegmentation.models.bisenet import BiSeNet
+from YelloHand.checkpoint import load_checkpoint
+from YelloHand.models.bisenet import BiSeNet
 import torch
 
 def load_bisenet(path: str, device=torch.device("cpu")):
