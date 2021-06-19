@@ -1,6 +1,6 @@
 
-from MagicHandSegmentation.checkpoint import load_checkpoint
-from MagicHandSegmentation.models.deeplab import DeepLab
+from YelloHand.checkpoint import load_checkpoint
+from YelloHand.models.deeplab import DeepLab
 import torch
 
 def load_deeplab(path: str, device=torch.device("cpu")):
