@@ -1,11 +1,11 @@
 # Real time semantic hand segmentation.
-### BiSeNetV2 and DeepLabV3-MobilNetV3.
+### BisenetV2 and DeeplabV3-MobilnetV3.
 
 Two pretrained models for real time segmentation. Ready to use :)
 
 ![DeeplabV3](https://github.com/gleb-papchihin/YellowHand/blob/main/DeepLabV3.gif)
 
-# BiSeNetV2.
+# BisenetV2.
 
 | MODEL | IM. SIZE | FPS on GPU | TEST IoU | LINK |
 |:-------------:|:---------:|:---------:|:---------:|:------------:|
