@@ -1,1 +1,1 @@
-# yellow_hand
+# Semantic hand segmentation.
