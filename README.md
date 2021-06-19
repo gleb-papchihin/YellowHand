@@ -32,15 +32,18 @@ Two pretrained models for real time segmentation. Ready to use :)
   import YellowHand as yellow
   
   # Enter path to model params
-  path_to_model = "" 
+  path_to_bisenet = "" 
+  path_to_deeplab = "" 
   
   # Select device: cpu or cuda
   device = torch.device("cpu")
   
   # Model was automatically switched to eval mode
-  bisenet = yellow.load_bisenet(path_to_model, device)
+  bisenet = yellow.load_bisenet(path_to_bisenet, device)
+  deeplab = yellow.load_deeplab(path_to_deeplab, device)
   
   # Have fun
   a = torch.rand([1, 3, 480, 640])
-  pred = bisenet(a)
+  pred_bisenet = bisenet(a)
+  pred_deeplab = deeplab(a)
 ```
