@@ -1,8 +1,21 @@
+from torchvision import transforms
 from pathlib import Path
+from PIL import Image
+
 import ZipFile
 import shutil
 import json
 
+
+def load_image(path: str, resize: tp.Tuple[int, int], device=torch.device("cpu")):
+    image = Image.open(path).convert("RGB")
+    to_tensor = transforms.ToTensor()
+    resizer = transforms.Resize(resize)
+    x = to_tensor(image)
+    x = resizer(x)
+    x = x.to(device).float()
+    x = x.unsqueeze(0)
+    return x
 
 def create_history():
     history = {
