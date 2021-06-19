@@ -24,3 +24,23 @@ Two pretrained models for real time segmentation. Ready to use :)
 | Extended GTEA Gaze+ | ~14K | [click](http://cbs.ic.gatech.edu/fpv/) |
 | Ego2Hand | ~180K | [click](https://github.com/AlextheEngineer/Ego2Hands) |
 | EgoHand | ~5K | [click](http://vision.soic.indiana.edu/projects/egohands/) |
+
+# How to use.
+
+```python
+  import torch
+  import YellowHand as yellow
+  
+  # Enter path to model params
+  path_to_model = "" 
+  
+  # Select device: cpu or cuda
+  device = torch.device("cpu")
+  
+  # Model was automatically switched to eval mode
+  bisenet = yellow.load_bisenet(path_to_model, device)
+  
+  # Have fun
+  a = torch.rand([1, 3, 480, 640])
+  pred = bisenet(a)
+```
