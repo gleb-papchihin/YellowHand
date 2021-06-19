@@ -1,2 +1,2 @@
-from MagicHandSegmentation.use_bisenet import *
-from MagicHandSegmentation.use_deeplab import *
+from YellowHand.use_bisenet import *
+from YellowHand.use_deeplab import *
