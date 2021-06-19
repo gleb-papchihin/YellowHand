@@ -11,13 +11,13 @@ Two pretrained models for real time segmentation. Ready to use :)
 |:-------------:|:---------:|:---------:|:---------:|:------------:|
 | BiSeNetV2 | 640x480 | ~237 | 0.94 | download |
 
-# DeepLabV3-MobilNetV3.
+# DeeplabV3-MobilnetV3.
 
 | NAME | IM. SIZE | FPS on GPU | TEST IoU | LINK |
 |:-------------:|:---------:|:---------:|:---------:|:------------:|
 | DeeplabV3 | 640x480 | ~131 | 0.93 | download |
 
-# Data.
+# Datasets.
 
 | DATASET | SIZE | LINK |
 |:---------------------:|:---------:|:------------:|
